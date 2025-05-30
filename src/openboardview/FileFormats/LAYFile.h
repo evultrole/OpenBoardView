@@ -1,6 +1,7 @@
 #pragma once
 
 #include "BRDFileBase.h"
+#include <stdint.h>
 
 struct LAYFile : public BRDFileBase {
 	LAYFile(std::vector<char> &buf);
